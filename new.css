@@ -6,6 +6,7 @@ body{
     position: relative;
     text-align:  center;
     padding-top: 10%;
+    width: 100%;
 }
 
 .text p{
@@ -58,7 +59,7 @@ body{
 
 .overall2{
     display: grid;
-    height: 520px;
+    min-height: 520px;
     grid-template-columns: auto auto auto;
     background-color: darkslategray;
     justify-content: center;
@@ -129,3 +130,22 @@ body{
 .facebook a{
     text-decoration: none;
 }
+
+@media only screen and (max-width: 600px) {
+    .grid1 {
+        grid-template-columns: auto;
+        padding: 0 20px
+    }
+
+    .overall2{
+        min-height: 50px;
+        grid-template-columns: auto;
+    }
+    .grid3{
+        margin-bottom: 20px;
+    }
+    .text p{
+        padding: 0 10px;
+    }
+}
+
