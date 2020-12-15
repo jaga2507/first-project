@@ -1,0 +1,131 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+.text{
+    position: relative;
+    text-align:  center;
+    padding-top: 10%;
+}
+
+.text p{
+    color: rgb(0, 0, 0);
+    padding: 0 150px;
+}
+
+.bgimage{
+    position: absolute;
+    opacity: 0.6;
+}
+
+.bgimage img{
+    width: 100%;
+    height: 700px;
+}
+
+.text p{
+    text-align: center;
+    font-size: 23px;
+}
+
+.text h1{
+    font-size: 47px;
+}
+
+.button{
+    text-decoration: none;
+    color: white;
+    background-color: rgba(51, 58, 65, 0.8);
+    font-size: 25px;
+    padding: 20px;
+    border: 1px solid white;
+}
+
+.button1{
+    margin-top: 50px;
+}
+
+.grid1 {
+    display: grid;
+    grid-template-columns: 400px 400px;
+    justify-content: center;   
+}
+
+.overall1{
+    background-color: white;
+    margin-top: 12%;
+}
+
+.overall2{
+    display: grid;
+    height: 520px;
+    grid-template-columns: auto auto auto;
+    background-color: darkslategray;
+    justify-content: center;
+    grid-column-gap: 20px;
+    padding-top: 20px;
+}
+
+.grid3{
+    width: 300px;
+    height: 500px;
+    text-align: center;
+    background-color: white;
+}
+
+.grid3 img{
+    width: 300px;
+    height: 200px;
+}
+
+.grid3 p{
+    font-size: 20px;
+    padding: 0 10px;
+}
+
+.overall3{
+    text-align: center;
+    padding-top: 60px;
+}
+
+.overall3 p{
+    font-size: 20px;
+    padding: 0 ;
+}
+
+.facebook{
+    background-color: black;
+    text-align: center;
+    height: 200px;
+    font-size: 30px;
+}
+.facebook a:nth-child(2){
+    color:rgb(202, 35, 35);
+}
+.facebook a:nth-child(3){
+    color:rgb(13, 192, 28);
+}
+.fa-facebook{
+    color:rgb(13, 55, 170);
+}
+
+.fa-twitter{
+    color:rgb(34, 177, 221);
+}
+
+.fa-facebook-messenger{
+    color:rgb(247, 253, 255);
+}
+
+.facebook i{
+    margin-top: 4.5%;
+    margin-right: 2%;
+}
+
+.facebook h3{
+    color: rgb(128, 121, 121);
+    font-size: 20px;
+}
+.facebook a{
+    text-decoration: none;
+}
